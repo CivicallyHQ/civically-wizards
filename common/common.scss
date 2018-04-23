@@ -1,0 +1,46 @@
+
+#custom-wizard-main {
+  .wizard-step h1.wizard-step-title {
+    margin: 0 0 10px 0;
+  }
+
+  .tip {
+    margin-top: 15px;
+  }
+}
+
+#custom-wizard-main.welcome, #custom-wizard-main.place-petition {
+  .wizard-step-description {
+    margin-bottom: 0;
+  }
+
+  .wizard-field {
+    margin-bottom: 0;
+  }
+
+  .field-description {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    color: #333;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .field-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .wizard-step-footer {
+    margin-top: 10px;
+  }
+}
