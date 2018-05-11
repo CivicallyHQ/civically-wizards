@@ -45,6 +45,20 @@
   }
 }
 
-#custom-wizard-main.place-petition .d-editor {
-  height: 150px;
+#custom-wizard-main.place-petition {
+  .d-editor {
+    height: 150px;
+  }
+  
+  .d-editor-preview {
+    padding: 12 15px;
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+  .d-editor-preview-wrapper {
+    
+  }
 }
