@@ -1,3 +1,6 @@
+body {
+  background:"url('/plugins/civically-user/images/background.png') center / cover #FEFDF9 no-repeat";
+}
 
 #custom-wizard-main {
   .wizard-step h1.wizard-step-title {
@@ -57,4 +60,17 @@
   .d-editor-preview-wrapper {
     display: block;
   }
+}
+
+.help-button {
+    position: fixed;
+    color: $secondary;
+    background: $tertiary;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.5em;
+    padding: 10px 17px;
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    border: none;
 }
