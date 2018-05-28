@@ -63,14 +63,21 @@ body {
 }
 
 .help-button {
-    position: fixed;
-    color: $secondary;
-    background: $tertiary;
-    bottom: 50px;
-    right: 50px;
-    font-size: 1.5em;
-    padding: 10px 17px;
-    border-radius: 50%;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    border: none;
+  position: fixed;
+  display: none;
+  color: $secondary;
+  background: $tertiary;
+  bottom: 50px;
+  right: 50px;
+  font-size: 1.5em;
+  padding: 10px 17px;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  border: none;
+}
+
+#custom-wizard-main.place-petition, #custom-wizard-main.app-petition, #custom-wizard-main.group-petition {
+  & + .help-button {
+    display: block;
+  }
 }
