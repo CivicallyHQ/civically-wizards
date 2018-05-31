@@ -12,7 +12,7 @@ body {
   }
 }
 
-#custom-wizard-main.welcome, #custom-wizard-main.place-petition, #custom-wizard-main.app-petition {
+#custom-wizard-main.welcome, #custom-wizard-main.neighbourhood-petition, #custom-wizard-main.app-petition {
   .wizard-step-description {
     margin-bottom: 0;
   }
@@ -48,7 +48,7 @@ body {
   }
 }
 
-#custom-wizard-main.place-petition {
+#custom-wizard-main.neighbourhood-petition {
   .d-editor-preview {
     padding: 12 15px;
     
@@ -76,7 +76,7 @@ body {
   border: none;
 }
 
-#custom-wizard-main.place-petition, #custom-wizard-main.app-petition, #custom-wizard-main.group-petition {
+#custom-wizard-main.neighbourhood-petition, #custom-wizard-main.app-petition, #custom-wizard-main.group-petition {
   & + .help-button {
     display: block;
   }
