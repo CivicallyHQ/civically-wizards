@@ -20,10 +20,12 @@ body {
   .wizard-field {
     margin-bottom: 0;
   }
+  
+  .tip {
+    display: flex;
+  }
 
   .field-description {
-    display: inline-block;
-    vertical-align: middle;
     margin-top: 0;
     color: #333;
 
@@ -33,8 +35,6 @@ body {
   }
 
   .field-image {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 5px;
 
     img {
